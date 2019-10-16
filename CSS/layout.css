@@ -1,0 +1,147 @@
+/* This controll my navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFCCCC;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  right: 0px;
+  -moz-box-shadow: rgba(66, 73, 73  , 0.9) 20px 0px 25px,  rgba(66, 73, 73 , 0.9) -20px 0px 25px;
+  -webkit-box-shadow: rgba(66, 73, 73  , 0.9) 20px 0px 25px,  rgba(66, 73, 73  , 0.9) -20px 0px 25px;
+  box-shadow: rgba(66, 73, 73  , 0.9) 20px 0px 25px,  rgba(66, 73, 73 , 0.9) -20px 0px 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+li a:hover {
+  background-color: #CCFFFF;
+  color: black;
+}
+body{
+
+    font-size: 20px;
+    margin-top: 100px;
+  	width: 90%;
+    height: 100%;
+    margin-left: 100px;
+}
+body>p{
+     text-align: left;
+     margin-left: 30px;
+     margin-right: 100px;
+
+}
+html{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+header{
+  text-align: center;
+}
+
+img{
+  float: right;
+  width: 180px;
+  margin-left: inherit;
+}
+/* Border Shadow in <hr> tag */
+
+hr {
+height: 8px;
+border: 1;
+box-shadow: inset 0 9px 9px -3px rgba(236, 112, 99 , 0.8);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+h1{
+  margin-top: 80px;
+  color:#EC7063;
+  font-style: oblique;
+}
+h3{
+  color: #2E86C1;
+  font-family: sans-serif;
+}
+h2{
+  color:#E772A2 ;
+  font-size: 40px;
+}
+/* used for resume' page */
+   .clear { clear: both;
+   padding-right: 400px;
+ }
+
+
+  p { font-family: Georgia, Serif;
+    font-style: italic;
+     font-size: 18px;
+ }
+dt { color:#2E86C1 ;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  margin-top: 0px;
+  width: 150px;
+  float: left;
+  height: 100px;
+  border-right: 2px solid #999;  }
+dd {
+  width: 600px;
+   float: right;
+ }
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px; }
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 4%;
+  border-top: 3px solid rgba(241, 148, 138,1.00);
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  clear: both;
+	padding-bottom: 20px;
+    }
+/* this part is used for tables */
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+    }
+  th{
+    color: black;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-family: cursive;
+    }
+  table{
+    width: 60%;
+    margin-left: 30px;
+    }
+  tr:nth-child(even) {
+    background-color: #F5B7B1 ;
+    }
+   td:first-child {
+    font-weight: bold;
+    color: #3D73F9;
+    text-align: center;
+    }
