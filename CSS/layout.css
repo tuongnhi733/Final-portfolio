@@ -90,7 +90,9 @@ h2{
  }
 
 
-  p {
+  p { font-family: Georgia, Serif;
+    font-style: italic;
+     font-size: 18px;
  }
 dt { color:#2E86C1 ;
   font-style: italic;
@@ -104,11 +106,13 @@ dt { color:#2E86C1 ;
   height: 100px;
   border-right: 2px solid #999;  }
 dd {
-  float: right;
-  font-family: Georgia, Serif;
-  font-style: italic;
-  font-size: 18px;
+  width: 600px;
+   float: right;
  }
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px; }
 footer {
   text-align: center;
   font-size: 1.2em;
