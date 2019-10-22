@@ -53,11 +53,17 @@ html{
 header{
   text-align: center;
 }
-
+.sport{
+  float: left;
+}
+.location{
+float: right;
+margin-right: 300px;
+border: black;
+}
 img{
   float: right;
-  width: 180px;
-  
+
 }
 /* Border Shadow in <hr> tag */
 
